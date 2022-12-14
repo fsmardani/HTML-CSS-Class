@@ -1,3 +1,52 @@
-h1{
-    color:aliceblue;
+body{
+    background-attachment: fixed;
+    background-image: url("31405.jpg");
+    
 }
+
+.header{
+    color:azure;
+    margin: 5px;
+    padding: 20px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar {
+    align-items: center;
+    padding: 1px;
+    margin: 5px;
+    background-color:#333;
+    color:white;
+   }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 2px solid rgba(205, 105, 239, 0.902);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
